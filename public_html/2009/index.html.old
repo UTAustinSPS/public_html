@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<style type="text/css">
+body {background-color: black}
+p {color: white;
+font-family: helvetica, serif;
+text-align: left;
+margin-left: 2em}
+a:link {color: #00FFFF}
+a:visited {color: #00FFFF}
+p.address {position:relative;
+bottom:-10px;
+text-align: center}
+h1 {color: white;
+font-family: helvetica, serif;
+font-size: 175%;
+text-align: center}
+h2 {color: white;
+font-family: helvetica, serif;
+font-size: 150%;
+text-align: left;
+margin-left: 1em}
+ul {list-style: disc inside;
+color: white}
+div {color: white;
+font-family: helvetica, serif;
+text-align: left;
+margin-left: 2em}
+li {line-height: 2em}
+</style>
+<title>Society of Physics Students</title>
+</head>
+<body>
+<h1>Society of Physics Students</h1>
+<h2>Meeting information</h2>
+<iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;height=450&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=sqc3hafv8hhq38jr988iplu38c%40group.calendar.google.com&amp;color=%235A6986&amp;ctz=America%2FChicago" style=" border-width:0 " width="600" height="450" frameborder="0" scrolling="no"></iframe>
+<h2>Announcements</h2>
+<p>This website is currently under construction; the old website can be 
+accessed <a href="./old/">here</a>.</p>
+<p>Coming soon (maybe): an <a href="./survival/index.shtml">updated survival guide</a> [warning:
+very, very outdated]?  Old Physnic photos?</p>
+<h2><a href="./officers.html">Officers</a></h2>
+<h2><a href="./mailing.html">Subscribe to our mailing list</a></h2>
+<p class="address"><a href="mailto:sps@physics.utexas.edu">Website contact</a>
+</p>
+</body>
+</html>

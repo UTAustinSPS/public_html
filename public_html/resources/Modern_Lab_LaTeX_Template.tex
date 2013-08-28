@@ -1,0 +1,352 @@
+%=====================================================
+%====== If you are new to LaTeX, this website ========
+%======     will be your new best friend:     ========
+%======   http://en.wikibooks.org/wiki/LaTeX  ========
+%======   Template created by Jonathan Blair  ========
+%=====================================================
+
+
+
+%=====================================================
+%============ Controls ===============================
+%=====================================================
+
+%\documentclass[12pt,letterpaper,onecolumn]{article}
+\documentclass[11pt,letterpaper,onecolumn]{article}
+%\documentclass[10pt,letterpaper,onecolumn]{article}  % not recommended
+%\documentclass[12pt,letterpaper,twocolumn]{article}
+%\documentclass[11pt,letterpaper,twocolumn]{article}
+%\documentclass[10pt,letterpaper,twocolumn]{article}
+
+
+%\usepackage{amsmath}
+\usepackage{graphics}
+%\graphicspath{{path-to-folder-containing-necessary-graphics}{other folder as necessary}}
+
+
+%=====================================================
+%============ \begin{document} =======================
+%=====================================================
+
+\begin{document}
+
+%=====================================================
+%============ Title ==================================
+%=====================================================
+
+\title{\bf Observation of Very Interesting Phenomena}
+%\title{\Large\bf Larger, Bolded Title}
+
+%=====================================================
+%============ Author =================================
+%=====================================================
+\author{
+ Very Good Student \\*
+  \\*
+ PHY 353L Modern Laboratory \\*
+ Department of Physics \\*
+ The University of Texas at Austin \\*
+ Austin, TX 78712, USA
+}
+\date{February 30, 2012}
+
+%\address{The University of Texas, Austin, Texas, 78712}
+
+\maketitle
+
+%=====================================================
+%============ Abstract ===============================
+%=====================================================
+
+\begin{abstract}
+
+In an experiment designed to study very interesting phenomena
+we have observed fascinating events. Our measurements, conducted
+with the PHY353L instruments, yield values of the velocity of neutrinos 
+equal to $(v_\nu - c)/c  = (0.05\pm0.12)$. Our results are consistent with earlier 
+observations and confirm our understanding of the underlying physics.
+
+\end{abstract}
+
+%=====================================================
+%============ Body of the article ==========================
+%=====================================================
+
+%=====================================================
+%============ Section ==================================
+%=====================================================
+
+\section{Introduction} 
+
+\subsection{Physics Motivation}
+
+{\it (A paragraph)} Broad physics motivation should be discussed briefly but
+meaningfully. Basic phenomena should be
+explained (or referred to) and 
+prediction for experimental results clearly
+stated. Here and throughout the report appropriate
+references should be included~\cite{book, article}.
+
+\subsection{Theoretical background}
+
+{\it (A paragraph)}  Provide some more theoretical details for your measurements.
+Give formulas and references which provide a specific theoretical
+context for your measurements.
+
+\subsection{Our approach}
+
+{\bf Brief historical context}
+{\it (At most a paragraph, try to combine it with the next topic below)} 
+As a context for your work,
+you may want to relate what you are doing to first or previous 
+work on this topic. Since you are doing an experimental work,
+the context should be on the experimental technique. For example,
+you may say that this was first done in a such and such way 
+but later it was discovered
+that one can also do it another way. Your technique may be
+related to the first or none of the above.
+
+\noindent
+{\bf Your approach/technique}
+{\it (At most a paragraph)}
+What you have done, in broad terms. What's interesting and perhaps
+different about it.
+
+%=====================================================
+%============ Section ==================================
+%=====================================================
+
+\section{Experimental setup} 
+
+\subsection{Apparatus} 
+
+Ideas behind the particular technique should be briefly
+discussed. Enclose references. Sketches, pictures, and
+suitable schematics should be included and explained
+concisely. All major components of the system should be
+mentioned and their role clearly described.
+
+
+%=====================================================
+%============ Importing pictures  ==========================
+%=====================================================
+
+% !! To be imported, all graphics must be converted !!
+% !!    to encapsulated postscript (.eps format)    !!
+% !!  The GNU Image Manipulation Program (GIMP) is  !!
+% !!          capable of this conversion.           !!
+
+\begin{figure}[h]
+  %
+  % placement specifier = { h,t,b,p,!,H }
+  % see the following url for placement specifier definitions:
+  % http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+  %
+ \begin{center}
+ \includegraphics*[2.75in,2.75in]{string_theory.eps}
+  %
+  %               [llx,lly][urx,ury]{ filename.eps }
+  %
+  % Note: llx = lower left x coordinate
+  %       lly = lower left y coordinate
+  %       urx = upper right x coordinate
+  %       ury = upper right y coordinate
+  %
+  %       If [ llx,lly ] is omitted, [0,0] is assumed.
+  %       Be sure to include units.
+  %
+ \caption{ My Caption, in all its glory.\label{fig:apparatus} }
+ % See http://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing
+ %  for information on labels.
+ \end{center}
+\end{figure}
+
+\subsection{Data Collection}
+
+Data taking procedures should be described and various modes of
+data collection explained. Calibration procedures and
+relevant plots and numerical tables should be included.
+State clearly what measurements were taken for the final
+data analysis. Describe `doing the experiment' so it would
+be helpful to other students in the future. This may need
+to include physics arguments {\em what } and {\em how } data should
+be collected.
+
+%=====================================================
+%============ Section ==================================
+%=====================================================
+
+\section{Data Analysis and Results}
+
+A convenient means of thinking how to structure this section and what to 
+include here is to decide which numbers, figures, or plots constitute the
+essential output of this work. Then, describe logically elements of procedure(s)
+which have led to obtain these ``products".
+
+
+\subsection{Data Processing and Hypothesis Testing}
+
+Describe data analysis. Details! Perhaps include a figure and refer
+the reader to it.  Our apparatus, depicted in Figure~\ref{fig:apparatus},
+was used to measure voltage from the probe. Maybe you will need
+to include a table. Data, read out from the meter are included
+in Table~\ref{tab:events}. They were used to calculate the velocity of
+neutrinos using the formula:
+$$ v_\nu = {L \over t},$$
+where $L$ is the distance traveled by neutrinos in time $t$.
+
+Describe calculations of the final results.
+Thoroughly address error analysis and discussion of measurement
+uncertainties. Remember: NO EXPERIMENTAL RESULT CAN BE QUOTED
+WITHOUT AN ERROR (UNCERTAINTY)! 
+USE CORRECT NUMBER OF SIGNIFICANT FIGURES!
+Do not forget about random or systematic
+uncertainties. Be sure to propagate errors correctly!
+Include a demonstrative graph when possible.
+%See Figure~\ref{fig:results}.
+Discuss sources of random and systematic uncertainties.
+
+Make final assessment and interpretation after that.
+Discuss apparatus problems if any. Suggestions for
+lab setup or approach improvements are welcome!
+
+%=====================================================
+%============ Importing pictures  ====================
+%=====================================================
+
+% !! To be imported, all graphics must be converted !!
+% !!    to encapsulated postscript (.eps format)    !!
+% !!  The GNU Image Manipulation Program (GIMP) is  !!
+% !!          capable of this conversion.           !!
+
+\begin{figure}[h]
+  %
+  % placement specifier = { h,t,b,p,!,H }
+  % see the following url for placement specifier definitions:
+  % http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+  %
+ \begin{center}
+ \includegraphics*[2.25in,3.2in]{centrifugal_force.eps}
+  %
+  %               [llx,lly][urx,ury]{ filename.eps }
+  %
+  % Note: llx = lower left x coordinate
+  %       lly = lower left y coordinate
+  %       urx = upper right x coordinate
+  %       ury = upper right y coordinate
+  %
+  %       If [ llx,lly ] is omitted, [0,0] is assumed.
+  %       Be sure to include units.
+  %
+ \caption{ The experiment yielded interesting results presented above. 
+ The plot shows time as a function of distance traveled by all particles.
+ Neutrinos are represented by solid triangles.~\label{fig:results} }
+ % See http://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing
+ %  for information on labels.
+ \end{center}
+\end{figure}
+
+
+%===========================================================================
+%=========================== Table 1 =======================================
+%===========================================================================
+%
+% Note: the position of the table does not always depend on its position here. See
+% http://en.wikibooks.org/wiki/LaTeX/Tables
+% for details.
+%
+
+\begin {table}[h]
+{
+{%\footnotesize
+\begin {center}
+\begin {tabular} {c | c c  c | c | c c }
+\hline\hline
+Run 			&   ~~POT~~ 		&
+\multicolumn{2}{ | c } {Predicted}  &   \multicolumn{2}  {| c} {Selected} \\
+Period		& $(10^{20})$	&
+\multicolumn{2}{ | c } {(No oscillations)}  &   \multicolumn{2}  {| c} {(Far Detector)} \\
+			    &
+			& \multicolumn{1} {| c } {~~~Fully} & \multicolumn{1} { c } {~~~Partially} 
+			& \multicolumn{1} {| c } {~~~Fully} & \multicolumn{1} { c } {~~~Partially} \\
+			
+\hline
+I			& 1.269		
+			& \multicolumn{1} {| r } {426 } & \multicolumn{1} { r } {375 } 
+		     	& \multicolumn{1} {| r } {318 } & \multicolumn{1} { r } {357 } \\
+
+II		     	& 1.943
+			& \multicolumn{1} {| r } {639 } & \multicolumn{1} { r } {565 } 
+		    	& \multicolumn{1} {| r } {511 } & \multicolumn{1} { r } {555 } \\
+
+\hline
+Total			& 7.246
+			& \multicolumn{1} {| r } {2,451 } & \multicolumn{1} { r } {2,206 } 
+		     	& \multicolumn{1} {| r } {1,986 } & \multicolumn{1} { r } {2,017 } \\
+
+\hline% \hline
+\end {tabular}
+\end {center}
+}
+}
+\caption {\label{tab:events}
+Predicted and observed numbers of events classified in the Far Detector as fully and
+partially reconstructed charged current interactions shown for all running periods.
+ }
+\end {table}
+
+
+\subsection{Results and Brief Discussion}
+
+Clearly present the result of your analysis. Make sure
+you include the uncertainties. No experimental result
+can be quoted without an error attached to it.
+
+Your results should be compared (discussed) with predictions and other
+measurements. The main results should be then used in the
+abstract.
+
+%=====================================================
+%============ Section ==================================
+%=====================================================
+
+\section{Summary and conclusions}
+
+Summarize briefly the results of the experiment. Our value 
+of $(v_\nu - c)/c  = (0.05\pm0.12)$  is consistent
+with measurements conducted by other experiments~\cite{OtherExpts}
+
+{\bf Acknowledgements:} (i.e., thank for) contributions or help
+of your partner(s) and or
+others (TA, machine shop, software used, ...).
+
+%=====================================================
+%============ Bibliography  ==============================
+%=====================================================
+
+\begin{thebibliography}{9}
+
+\bibitem{book} 
+R.~Feynman, {\it QED}, Ch.7.
+
+\bibitem{article}	
+R.~Dalitz, Proc. Roy. Soc. (London) {\bf A64}, 667 (1951)
+
+\bibitem{OtherExpts} 
+P.~Adamson {\it et al.}  [MINOS Collaboration],
+  ``Measurement of neutrino velocity with the MINOS detectors and NuMI neutrino beam,''
+  Phys.\ Rev.\ D {\bf 76}, 072005 (2007)
+  [arXiv:0706.0437 [hep-ex]].
+  %%CITATION = ARXIV:0706.0437;%%
+
+\end{thebibliography}
+
+%=====================================================
+%============ End ====================================
+%=====================================================
+
+\end{document}
+
+%=====================================================
+%============ End ====================================
+%=====================================================

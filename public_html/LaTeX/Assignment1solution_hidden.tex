@@ -1,0 +1,156 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+%\usepackage{amsmath}
+% enumerate is numbered \begin{enumerate}[(I)] is cap roman in parens
+% itemize is bulleted \begin{itemize}
+% subfigures:
+% \begin{subfigure}[b]{0.5\textwidth} \includegraphics{asdf.jpg} \caption{} \label{subfig:asdf} \end{subfigure}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=red}
+\graphicspath{ {C:/Users/Evan/Desktop/} }
+\title{Assignment 1: Week 2}
+\author{Evan Ott}
+%\date{DATE}
+\setcounter{secnumdepth}{0}
+\usepackage[parfill]{parskip}
+\begin{document}
+\maketitle
+
+\begin{section}{Math}
+	In this week's session, we learned about using the math mode of \LaTeX (isn't that fancy? - you can type it by saying $\backslash\texttt{LaTeX}$). You can enter math mode for inline text with any of the following:
+\begin{verbatim}
+	\begin{math}...\end{math}
+	\(...\)
+	$...$
+\end{verbatim}
+And you can do out-of-line equations with:
+\begin{verbatim}
+	\begin{equation}...\end{equation}
+	\[...\]
+	$$...$$
+\end{verbatim}
+
+For your first exercise, please produce the following equations:
+
+\Large
+\begin{equation}
+	\int_\alpha^\beta\frac{\partial^2\Psi}{\partial{x^2}}d\tau
+\end{equation}
+\begin{equation}
+	\label{eq:snell}
+	d\sin(\theta)=\pm{\sqrt[3]{n^3}}\lambda
+\end{equation}
+\begin{equation}
+	2\Gamma_2+\Omega_2\rightarrow 2\Gamma_2\Omega
+\end{equation}
+\normalsize(HINT: use $\backslash\texttt{partial}$, $\backslash\texttt{pm}$, and $\backslash\texttt{rightarrow}$).
+
+Note: for the equation for Snell's law (Equation \ref{eq:snell} $\leftarrow$ isn't that link cool? We'll do those next week), be sure you get $\sin(\theta)$ not $sin(\theta)$.
+
+If you feel ambitious, check out one of the symbol sheets and try to write something a little different:
+
+\Large
+\begin{equation}
+	\int_{\mathcal{S}}\nabla^2V
+\end{equation}
+\begin{equation}
+	\sum_{i=1}^{n}(\int{f_i(x)dx})=\int(\sum_{i=1}^{n}f_i(x))dx
+\end{equation}
+\begin{equation}
+	\widehat{H}\Psi=i\hbar\frac{\partial\Psi}{\partial{t}}=-\frac{\hbar^2}{2m}\nabla^2\Psi+V\Psi=E\Psi
+\end{equation}
+\end{section}
+
+\begin{section}{Pictures}
+
+For now, if you can get the image below with the instructions given, you're right on track.
+\begin{enumerate}[1.]
+	\item{In the preamblel to the document, include the packages $\texttt{graphics}$ and $\texttt{graphicx}$. $\texttt{graphics}$ is covered in the tutorial, and  $\texttt{graphicx}$ allows you to use other image formats in addition to $\texttt{*.ps}$.}
+	\item{Download \url{http://www.ph.utexas.edu/~sps/pics/sps_logo.png} and put it in a folder with path $path$.}
+	\item{In the preamble, tell \LaTeX where the image you just downladed is with $\backslash{\texttt{graphicspath}\{ \{path\} \}}$. 
+	For example, you might have (on Windows):	\\
+	$\backslash{\texttt{graphicspath\{ \{C:/Users/Evan/Downloads/\} \}}}$.}
+	\item{Now, include it in your document with the following:}
+\end{enumerate}
+\begin{verbatim}
+\begin{figure}[h]
+    \includegraphics{sps_logo.png}
+\end{figure}
+\end{verbatim}
+and you should end up with:
+
+\begin{figure}[h]
+	\includegraphics{sps_logo.png}
+\end{figure}
+
+The $\texttt{[h]}$ in the code above simply tells \LaTeX to put the image at this point in the document - generally, it may move it to other pages if you don't tell it what to do 
+(which is often the right decision aesthetically speaking).
+\end{section}
+
+\begin{section}{Tables and Matrices}
+
+I'm going to keep this section short because it's kinda tedious. Try to write the Pauli spin matrices in \LaTeX:
+
+\Large
+\begin{equation}
+	\overline{S}=\left(\begin{array}{ccc}
+		S_x & S_y & S_z \end{array} \right)
+\end{equation}
+\begin{equation}
+		S_x=\frac{\hbar}{2} \left( \begin{array}{cc}
+		0 & 1 \\
+		1 & 0 \end{array}\right)
+\end{equation}
+\begin{equation}
+	S_y=\frac{\hbar}{2} \left( \begin{array}{cc}
+		0 & -i \\
+		i & 0 \end{array} \right)
+\end{equation}
+\begin{equation}
+	S_z=\frac{\hbar}{2}\left(\begin{array}{cc}
+		1 & 0 \\
+		0 & -1 \end{array}\right)
+\end{equation}
+
+\normalsize
+For this next part, you will also need the $\texttt{tabularx}$ package included in the preamble (it gives you the horizontal lines and multiple column entries).
+
+Now, try to write this simple data set (mind the justification!):
+
+\Huge
+
+\begin{tabular}{ l | c || r}
+\multicolumn{3}{c}{Fibonacci Numbers}\\
+\hline 
+x & y & x+y \\ 
+\hline
+1 & 1 & 2 \\
+1 & 2 & 3 \\
+2 & 3 & 5 \\
+3 & 5 & 8 \\
+... & ... & ... \\
+\hline
+17711 & 28657 & 46368 
+%\hline
+\end{tabular}
+\end{section}
+\normalsize
+
+\begin{thebibliography}{9}
+\bibitem{sps}
+	SPS \LaTeX Home Page \\
+	\url{http://www.ph.utexas.edu/~sps/LaTeX/}
+\bibitem{symbols}
+	Recommended symbol sheet \\
+	\url{http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf}
+\bibitem{more}
+	Wikibooks on \LaTeX \\
+	\url{en.wikibooks.org/wiki/LaTeX}
+\end{thebibliography}
+\end{document}

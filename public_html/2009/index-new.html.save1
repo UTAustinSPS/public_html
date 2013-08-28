@@ -1,0 +1,113 @@
+<html>
+
+<head>
+<title>The Society of Physics Students</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#000080" vlink="#7171FF" alink="#FF0000">
+<div align="center"><center>
+
+<table border="2" cellpadding="5" cellspacing="0" width="498" bgcolor="#FFFFF0">
+  <tr>
+    <td width="498">
+
+    <!-- introductory logos -->
+    <img src="sps-ivory.jpg" width="125" height="125" alt="[SPS Logo]" align="middle">
+    <img src="sps-name-ut.jpg" width="350" height="80" alt="[The Society of Physics Students--UT]" align="middle">
+
+    <p><em><font face="Helvetica">
+    This Web Page Area is currently taking updates/modifications</br>
+    Last date fully modified: Thursday, March 8, 2001<br>
+    New updated web page expected by: Saturday, April 20, 2002
+    </font></em></p>
+
+    <!-- why this exists -->
+    <font face="Helvetica">
+    <p>The purpose of this page is to provide announcements of upcoming
+    events and useful info for Physics Undergrads at the University of Texas at Austin. If you
+    have any suggestions, please <a href="mailto:sps@physics.utexas.edu">email us</a>.</font></p>
+
+    <!-- general notes begin here -->
+
+<!--    <h3><font face="Arial">On the horizon</font></h3>
+<!--    <p><font face="Arial">
+<!--    We here at the SPS are working for you! Currently we are planning a career workshop for sometime in
+<!-- early April. Companies will be invited to speak about career opportunities for math and physics majors.
+<!-- Kinda like the Natural Science Career Fair, but without all the CS stuff. More details to come...
+<!--    </font>
+
+<!--    <h3><font face="Arial">UT Explore</font></h3>
+<!--    <p><font face="Arial">
+<!--    This past weekend, Dr. Oakes and a group of dedicated physics majors (including our own Liz, John,
+<!-- and Dipak) braved the elements to teach youngsters and their parents about the fun of physics. A hearty
+<!-- thank you to everyone involved in dissemanating physics to the masses.
+<!--    </font>
+
+    <h3><font face="Arial">Officers</font></h3>
+    <p><font face="Arial">
+    We like talking to people. We especially like hearing
+comments/suggestions/wishes/desires from our fellow SPS members. So drop us a line.
+    </font>
+    <ul>
+      <li>President: <a href="mailto:john@stilley.com">John Stilley</a></font></li>
+      <li>Vice President: <a href="mailto:dcarver@mail.utexas.edu">Diana Carver</a> </li>
+      <li>Treasurer: <a href="mailto:shrub101@mail.utexas.edu">Sarah Busch</a> </li>
+      <li>Secretary: <a href="mailto:pixilicious@hotmail.com">Anandi Salinas</a></li>
+    </ul>
+    <h3><font face="Arial">The <a href="survival/index.shtml">Survival Guide</a> to Physics at
+    UT Austin</font></h3>
+    <blockquote>
+      <p><font face="Helvetica">This is...well... this is something. Suffice it to say that the
+people who wrote this tome many moons ago had a lot of free time on their hands (notice how they
+actually took the time to put 'new' names on the comic strips before scanning them in). At the
+very least it's interesting and somewhat informative.</font></p>
+    </blockquote>
+    <h3><font face="Arial">SPS Membership Information</font></h3>
+    <blockquote>
+      <p><font face="Helvetica">Here's the thing, you wanna be a member? You're a member. One of these days
+we're going to charge dues, but not this semester. So enjoy it while it lasts. I should also mention that we do 
+not require that you be a
+      member at the national level, though it is preferred, and we think you'll like the benefit
+      of receiving Physics Today. To apply for the national organization, please pick up a form
+      from on top of the filing cabinet in the SPS lounge (RLM 5.222) and send it to the listed
+      address, along with $15.00.</p>
+      </font>
+    </blockquote>
+    <blockquote>
+      <font face="Helvetica"><p>You might also want to sign up for our <b>mailing list</b>. Send
+      email to <a href="mailto:listproc@mcfeeley.cc.utexas.edu">listproc@mcfeeley.cc.utexas.edu</a>
+      with no subject and </p>
+      </font><p><small><font face="Helvetica">&quot;subscribe sps email@mail.utexas.edu
+      FirstName LastName&quot;</font></small></p>
+      <p><font face="Helvetica">as the first and only body line.</font></p>
+    </blockquote>
+    <font face="Helvetica"><hr>
+    <h3>Links of Interest:</h3>
+    <ul>
+      <li><a href="http://www.utexas.edu/">The University of Texas at Austin</a> </li>
+      <li><a href="/">The Department of Physics</a> </li>
+      <li><a href="http://physics.tamuk.edu/sps/zone13.html">Regional (Zone 13) SPS Chapters</a> </li>
+      <li><a href="http://www.aip.org/education/sps/links.htm">Society of Physics Students
+        Chapters Nationwide</a> </li>
+      <li><a href="http://web.mit.edu/sps/www/othersps.html">Another List of Chapters (and other
+        Physics Student Orgs Worldwide)</a> (Hosted by SPS at MIT) </li>
+      <li><a href="http://www.aip.org/">The American Institute of Physics</a> </li>
+      <li>Who knew Britney Spears was so knowledgeable in semiconductor physics? <a
+href="http://britneyspears.ac/lasers.htm/">Britney's Guide To Semiconductor Physics</a> </li>
+    </ul>
+    <hr>
+    <p>&nbsp;</p>
+    <p>The Society of Physics-UT Austin Chapter<br>
+    Physics Department, RLM 5.208<br>
+    Austin, TX 78712<br>
+    <br>
+    Campus Mail Code: C1600</p>
+    <p><a href="mailto:sps@physics.utexas.edu">SPS@physics.utexas.edu</a></p>
+    <p><font size="-2"><i>This web site is published by the Society of Physics Students, a
+    registered student organization. It is not an official publication of The University of
+    Texas at Austin and does not represent the views of The University or its officers.</i></font></font></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>

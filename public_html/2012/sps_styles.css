@@ -1,0 +1,146 @@
+/* This stylesheet was created by Tharon Morrison on 2 April 2012. */
+
+body{
+	background-color: #000000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #ffffff;
+}
+
+h1{
+	background-color: #003057;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p{
+	background-color: #AACC7F;
+	margin-left: 20px;
+	margin-right: 10px;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 16px;
+}
+
+h2{
+	font-size: 16px;
+	margin-top: 2px;
+	margin-left: 6px;
+	margin-bottom: 0px;
+}
+
+h3{
+	font-size: 12px;
+	margin-left: 24px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-indent: -16px;
+	font-weight: normal;
+	padding: 1px;
+}
+
+h4{
+	font-weight: normal;
+	margin-left: 24px;
+	font-size: 12px;
+	color: #000000;
+	background-color: #cccccc;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
+}
+
+.here{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 28px;
+}
+
+.base{
+	background-color:#003057;
+}
+
+.white{
+	color: #ffffff;
+}
+
+.black{
+	color: #000000;
+}
+
+.small{
+	font-size: 8px;
+}
+
+.revised{
+	font-size: 12px;
+	color: #660000;
+}
+
+
+/*AACC7F
+003057
+cccccc*/
+/* ----link styles----*/
+
+img{
+	border: none;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+	background-color: #eeeeee;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000000;
+	background-color: #eeeeee;
+	text-decoration: none;
+}
+
+a.menu:link{
+	background-color: #003057;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+a.menu:visited{
+	background-color: #003057;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+a.menu:hover{
+	background-color: #003057;
+	color: #fffffff;
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+a.menu:active{
+	background-color: #003057;
+	color: #fffffff;
+	text-decoration: underline;
+	font-size: 24px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<style type="text/css">
+body {background-color: black}
+p {color: white;
+font-family: helvetica, serif;
+text-align: left;
+margin-left: 2em}
+a:link {color: #00FFFF}
+a:visited {color: #00FFFF}
+p.address {position:relative;
+bottom:-10px;
+text-align: center}
+h1 {color: white;
+font-family: helvetica, serif;
+font-size: 175%;
+text-align: center}
+h2 {color: white;
+font-family: helvetica, serif;
+font-size: 150%;
+text-align: left;
+margin-left: 1em}
+ul {list-style: disc inside;
+color: white}
+div {color: white;
+font-family: helvetica, serif;
+text-align: left;
+margin-left: 2em}
+li {line-height: 2em}
+</style>
+<title>Mailing list</title>
+</head>
+<body>
+<p>"Subscribing to our mailing list is easier than solving the Hydrogen atom." 
+- Me</p>
+<p>The SPS mailing list is used to spread information about upcoming meetings 
+and events.  <a href="https://utlists.utexas.edu/sympa/subscribe/sps">Subscription</a>
+is available through UT Lists, the University's new listserv program.</p>
+</body>
+</html>
