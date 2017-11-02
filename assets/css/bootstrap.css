@@ -2067,6 +2067,7 @@ legend + .control-group {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  margin-top: 2%;
 }
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
