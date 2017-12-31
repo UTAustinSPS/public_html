@@ -1,0 +1,76 @@
+/* Your custom styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    background-image: url(../../pictures/QuantumPhysics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(44, 42, 60);
+    margin-bottom: 30px;    /* For sticky footer; matches footer height */
+}
+
+.banner{
+    padding: 2%; 
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    color: rgb(44, 42, 60);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.calendar{
+    margin-bottom: 4%;
+    padding: 2.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    overflow: hidden;
+}
+.mainText{
+    margin-bottom: 4%;
+}
+.footer{
+    color: blanchedalmond;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:92%;      /* Not 100% to prevent side scrolling when viewed on phone */   
+    height:30px;    /* For sticky footer; matches body margin-bottom */
+}
+
+.hero-unit {
+    padding: 6%; 
+    margin-bottom: 3%;
+    /* font-size: 18px;
+    font-weight: 200;
+    line-height: 30px; */
+    color: rgb(44, 42, 60);
+    background-color: #ffffff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.hero-unit h1,h2 {
+    margin-bottom: 0;
+    /* font-size: 60px; */
+    line-height: 1;
+    color: inherit;
+    letter-spacing: -1px;
+}
+.hero-unit li {
+    line-height: 30px;
+}
+
+.btn-fb {
+    color: #ffffff;
+    background-color: #133783;
+    border-color: #133783;
+}
+.btn-ut{
+    color: #ffffff;
+    background-color: #fc5800;
+    border-color: #fc5800;
+}

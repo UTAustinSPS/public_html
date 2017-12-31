@@ -1,334 +1,157 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>UT SPS - Resources</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="UT SPS - Resources">
-    <meta name="author" content="Tharon Morrison">
+<html>
+<head>
+	<title>UT SPS - Resources</title>
 
-    <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../assets/css/docs.css" rel="stylesheet">
-    <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <link rel="icon" href="../pictures/favicon.ico"/>
+    
+<!-- js and jquery listed BEFORE css -->
+    <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../assets/js/mdb.js"></script>
+    <script type="text/javascript" src="../assets/js/mdb.min.js"></script>
+    <script type="text/javascript" src="../assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/dropdownfix.js"></script>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/mdb.css"> -->
 
-    <!-- Fav and touch icons -->
-     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="assets/ico/favicon.png">-->
-	<link rel="shortcut icon" href="../pics/favicon.ico">
-  </head>
+</head>
+<body>
 
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    
 
-  <!-- Navbar
-    ================================================== -->
-  
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="../index.html">UT Society of Physics Students</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class=""><a href="./about.html">About Us</a></li>
-			  <li class=""><a href="./officers.html">Officers</a></li>
-              <li class=""><a href="./contact.html">Contact</a></li>
-			  <li class=""><a href="./EPE.html">Sigma Pi Sigma</a></li>
-			  <li class=""><a href="./uWiP.html">uWiP</a></li>
-			  <li class="active"><a href="#">Resources</a></li>
-			  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="http://cns.utexas.edu/">CNS Home</a></li>
-                    <li><a href="http://www.ph.utexas.edu/">UT Physics</a></li>
-					<li><a href="http://www.as.utexas.edu/~asa">UT ASA</a></li>
-					<li class="divider"></li>
-					<li class="nav-header">Our Social Media</li>
-					<li><a href="https://www.facebook.com/groups/TexasSPS/">Facebook</a></li>
-					<li><a href="https://utlists.utexas.edu/sympa/info/sps">UT Lists</a></li>
-					<li><a href="https://utexas.collegiatelink.net/organization/societyofphysicsstudents">Horns Link</a></li>
-                  </ul>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color-dark scrolling-navbar">
+        <logo><a class="navbar-brand" href="../index.html"><strong>UT Austin Society of Physics Students</strong></a></logo>
+        <button class="navbar-toggler" id="Nav" type="button" data-toggle="collapse dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="./about.html">About</a>
                 </li>
-			  <li class=""><a href="./map.html">Site Map</a></li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="./officers.html">Officers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="./EPE.html">Sigma Pi Sigma</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" href="./uWiP.html">uWiP</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link waves-effect waves-light" href="#">Resources</a>
+                </li>
+                <li class="nav-item dropdown" id="Drop"> <!-- 'Drop' id used to make dropdown work -->
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External Links</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink" id="drop"> <!-- 'drop' id used to make dropdown work -->
+                        <a class="dropdown-item" href="http://cns.utexas.edu/" target="blank">CNS Home</a>
+                        <a class="dropdown-item" href="http://www.ph.utexas.edu/" target="blank">UT Physics</a>
+                        <a class="dropdown-item" href="http://www.as.utexas.edu/~asa" target="blank">UT ASA</a>
+                        <div class="dropdown-divider"></div>
+                        <h5 class="dropdown-header">Our Social Media</h5>
+                        <a class="dropdown-item" href="https://www.facebook.com/groups/TexasSPS/" target="blank">Facebook</a>
+                        <a class="dropdown-item" href="https://utlists.utexas.edu/sympa/info/sps" target="blank">UT Lists</a>
+                        <a class="dropdown-item" href="https://utexas.collegiatelink.net/organization/societyofphysicsstudents" target="blank">Horns Link</a>
+                    </div>
+                </li>
             </ul>
-          </div><!--/.nav-collapse -->
         </div>
-      </div>
+    </nav>
+
+    <!--/ Navbar -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Body -->
+
+    <!-- Banner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 banner">
+                <h1>Resources!</h1>
+                <h2>Want to learn more about SPS? Or take a course in a programming language? This is the place for you!</h2>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!--/ Banner -->
+
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+        
+    <!-- Calendar -->
+            <div class="col-md-3">
+                <div class="calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=450&amp;wkst=1&amp;src=spsofficers%40gmail.com&ctz=America%2FChicago" height="450" width="250" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+    <!--/ Calendar -->
+
+    <!-- Main Text -->
+            <div class="col-md-6">
+                <div class="hero-unit">
+                    <h3>SPS Resources</h3>
+                        <p><a href="../resources/skillmanual.pdf" target="blank">Research Skill Manual</a>
+                        <p><a href="../resources/bylaws.pdf" target="blank">SPS Bylaws</a>
+                        <p><a href="http://www.ph.utexas.edu/~gositz/PhysicsAdvisingFAQ.pdf" target="_blank">Dr. Sitz's Registration FAQs</a></p>
+                        <p><a href="https://www.spsnational.org/about/membership" target="blank">National SPS Registration</a></p>
+                        
+                    <h3>Computer Resources</h3>
+                        <p><a href="https://www.ph.utexas.edu/software/" target="blank">Physics Software Page</a></p>                      
+                        <p><a href="http://pmcl.ph.utexas.edu/" target="blank">Physics MicroComputer Lab</a></p>
+
+                    <h3>GRE Preparation</h3>
+                        <p><a href="http://grephysics.net/ans/" target="blank">GREPhysics.NET</a></p>
+                        <p><a href="http://en.wikipedia.org/wiki/GRE_Physics_Test/" target="blank">Physics GRE Wikipedia</a></p>
+                        <p><a href="http://www.physics.ohio-state.edu/undergrad/ugs_gre.php" target="blank">OSU GRE Study Group</a></p>
+                </div>
+            </div>
+    <!--/ Main Text -->
+
+    <!-- Pictures - MD bootstrap cards used-->
+            <div class="col-md-3">
+
+            </div>
+    <!--/ Pictures -->
+    
+        </div>
+    </div>
+    <!--/ Body -->
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Footer -->
+    
+    <div class="footer">
+        <p>&copy; 2017 UT Austin SPS</p>
     </div>
 
-	<!-- Subhead
-================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <table align="center">
-		<tr>
-			<td><h1>Resources!</h1>
-			<p class="lead">Want to learn more about SPS? Or take a course in a programming language? This is the place for you!</p>
-			</td>
-			<td>
-				<img src="../pics/sps.png" />
-			</td>
-		</tr>
-	</table>
-  </div>
-</header>
-
-    <div class="container">
-	<br />
-	<!-- Docs nav
-    ================================================== -->
-	
-      <div class="row">
-        <div class="span3 bs-docs-sidebar">
-            <ul class="nav nav-list bs-docs-sidenav">
-              <!--<li class="nav-header">Sidebar</li>-->
-             <li><p><a href="https://www.facebook.com/groups/TexasSPS/"><img src="../pics/Facebook.png" /></a><a href="https://utlists.utexas.edu/sympa/info/sps"><img src="../pics/lists.png" /></a><a href="mailto:spsofficers@gmail.com"><img src="../pics/gmail.png" /></a><a href="https://utexas.collegiatelink.net/organization/societyofphysicsstudents"><img src="../pics/hornslink.png" /></a></p></li>
-			  <li><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=57irvnlit6a4ee5pf3sudh9bn0%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FChicago" style=" border:solid 1px #777 " width="250" height="450" frameborder="0" scrolling="no"></iframe></li>
-              <!--<li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>-->
-            </ul>
-         </div><!--/span-->
-		 
-        <div class="span6">
-          <div class="" style="background-color:#ffffff;">
-					
-			<h3>SPS Courses</h3>
-		<!-- This is the LaTeX Section -->
-			<p><a href="#LaTeXModal" data-toggle="modal">LaTeX Course Materials</a>
-			<div id="LaTeXModal" class="modal fade hide">
-                    	<div class="modal-header" style="font-size:16px;">
-                        	<b>LaTeX Resources</b>
-                            <span style="float:right"><button class="close" data-dismiss="modal">x</button></span>
-                        </div>
-                        <div class="modal-body" style="height:350px;">
-                        	<h3>Week One</h3>
-		<p>
-			An introduction to the LaTeX programming language that is used throughout physics for composing scientific papers. How to install LaTeX and some basics about the language.
-		</p>
-		<a href="../LaTeX/pres1.pdf">Presentation (PDF)</a>
-		<br>
-		<a href="../LaTeX/Week1.tex">Week1.tex</a>
-		<br>
-		<a href="../LaTeX/Week1.pdf">Week1.pdf</a>
-		
-		<h3>Week Two</h3>
-		<p>Document classes, basic math formatting, basic pictures, tables, and matrices. This section makes sure you
-		get familiar with how to write code in LaTeX with some of the most common structures seen for images and math.
-		</p>
-		<a href="../LaTeX/Week2.pdf">Presentation (PDF)</a>
-		<br>
-		<a href="../LaTeX/Assignment1.pdf">Assignment 1 (PDF)</a> - basic math, images, tables, and matrices.
-		<br>
-		<p>We also put together a "similar" document to help out if you're having trouble completing assignment 1. We've
-		included the LaTeX document and the resultant PDF so you can see what does what. Those are, respectively,
-		<a href="../LaTeX/Assignment1Sample.tex">Sample 1 (TeX)</a> and <a href="../LaTeX/Assignment1Sample.pdf">Sample 1 (PDF)</a>. As always,
-		if you have questions, email the SPS officers at <a href="mailto:spsofficers@gmail.com">spsofficers@gmail.com</a>.
-		</p>
-		<h3>Week Three</h3>
-		<p>This week's presentation covers the material from last week briefly with some example code. Then, we discuss
-			several aspects of formatting that show up regularly. Most of these could become part of your template,
-			but some may change from time to time. Specifically, we cover references (equations, figures) and citations,
-			then how to format equations and images, followed by lists and the section structure of documents. Finally,
-			we describe how to make LaTeX customizable to the extent of the intermediate user. The advanced user might
-			create whole packages for extremely complex code, which we will not discuss in our seminar.</p>
-		<p><a href="../LaTeX/Week3.pdf">Presentation (PDF)</a> -- The author just discovered that the PDF generated has some style issues. He will address this on Monday</p>
-		<a href="../LaTeX/Assignment2.pdf">Assignment (PDF)</a>
-		<h3>Week Four</h3>
-		<p>Wrap up of the LaTeX seminar! Mostly a review of the material from last week with some additional formatting information.</p>
-		<a href="../LaTeX/Week4.pdf">Presentation (PDF)</a>
-		<h3>LaTeX Resources</h3>
-		<a href="../resources/Symbols.pdf">Symbol Sheet</a>
-		<br>
-		<a href="http://en.wikibooks.org/wiki/LaTeX/">Wikibooks on LaTeX</a>
-		<br>
-		<a href="../LaTeX/Template.tex">Simple template</a>
-		<br>
-		<p>Check back for more resources as we find them!</p>
-		<br>
-		<p>These documents created by Jonathan Blair and Evan Ott during Spring 2013. Maintained by the Society of Physics Students chapter at the University of Texas at Austin</p>
-                        </div>
-                        <div class="modal-footer">
-                        	<button class="btn btn-primary" data-dismiss="modal">Close</button>
-                        </div>
-                	</div></p>
-			<!-- End of LaTeX Information -->
-
-			<!-- Start of machine shop section -->
-			<!--
-			<p><a href="#MachineShopModal" data-toggle="modal">Machine Shop Seminar</a>
-			<div id="MachineShopModal" class="modal fade hide">
-                    	<div class="modal-header" style="font-size:16px;">
-                        	<b>Machine Shop Course Materials</b>
-                            <span style="float:right"><button class="close" data-dismiss="modal">x</button></span>
-                        </div>
-                        <div class="modal-body" style="height:350px;">
-                        	<h3>Week One Preparation</h3>
-			<ol>
-				<li>There is very limited space in the machine shop do to safety and availability of machines. So, people who want to take this class to send Gabe a small paragraph explaining why you're taking this class, what you're going to do with what you learn, if you're in a research lab at the moment, and other relevant things of the sort.</li>
-
-				<li>You wont be able to take this class unless you do #1. Gabe can only take 10-15 people so #1 will also be used by Gabe to determine who needs to take the class the most, a pseudo application of sorts. So if you don't get in sorry and don't blame Gabe, blame the amount of machines and your paragraph.</li>
-
-				<li>Classes will be early (starting at either 7:30 or 8) and there will be 2-3 groups of students meeting once a week. Jack wanted Gabe to stress the importance of being on time because he specifically said if anyone is more than 5minutes late he wouldn't start his lecture over and he wouldn't let you in. His rules not Gabe's.</li>
-		
-				<li>Materials will be provided so don't worry about that.</li>
-
-				<li><a href="http://students.autodesk.com/">Download</a> the free computer automated design software (cad)</li>
-
-				<li>Gabe is not entirely sure but Gabe thinks he'll make you guys learn cad as well so getting acquainted with that sooner rather than later.</li>
-
-				<li>Jack is the guy who runs the student shop and he's intense so his rulings are final. aka if you light something on fire/he thinks your a hazard to other students/ which causes him to kick you out...well you shouldnt have done those things.</li>
-
-				<li>The sooner you send back the paragraphs the better Gabe will think of you, the sooner Gabe can let you know your in or not, and the sooner Gabe will have legit dates and times. So do those pronto.</li>
-			</ol>
-
-
-			<p>People who are officially in. (aka people who have successfully convinced Gabe that they're going to do productive things with this) are:  Pedro, Victoria, Jay, Nick, Raghuveer, Laurie, Rikki, and Alex .</p>
-	
-			<p>Things to do:</p>
-	
-			<ol>
-				<li>A <a href="./secondary_pages/shop_sources/Machine_Shop_Form.pdf">form</a> that you need to get signed by dr.Sitz on the 10th floor. Only fill out things you can. For example, you probably don't have an advisor, an office, or laboratory. So just fill out the other things like the emergency contact etc. This needs to filled out and turned in on or before the first day of class. If it's not signed by sitz then the department won't grant you access to the shop.</li>
-
-				<li>The <a href="./secondary_pages/shop_sources/grad_manual.pdf">graduate manual</a>. It's long but you only have to read the relevant machine shop stuff. Aka pg.45-65. Just look over the safety stuff for the machines on those pages. This needs to be read before the first day or Jack wont let you in.</li>
-
-				<li>The drawings of the first thing we're going to be building. + <a href="./secondary_pages/shop_sources/hw1.pdf">a pseudo assignment</a>. The assignment is just to recreate the drawing before day1. I say pseudo because no one is going to force you to do anything but if you're waking up early to learn how to do all of this stuff you might as well do it right. You're not going to be able to do anything in a machine shop without a drawing, and if your pieces get more complicated you have to submit a drawing to a professional shop for them to make it. aka you should do the hw's i give you cause they're going to be useful in the future.</li>
-			</ol>
-		
-                        </div>
-                        <div class="modal-footer">
-                        	<button class="btn btn-primary" data-dismiss="modal">Close</button>
-                        </div>
-                	</div></p>
-			-->
-			<!-- End of machine shop section -->
-			
-
-		<h3>SPS Resources</h3>
-			<!-- <p><a href="../resources/2013/09/SPS_Intro.pdf">Intro Powerpoint</a></p> -->
-			<p><a href="../resources/skillmanual.pdf">Research Skill Manual</a>
-			<p><a href="../resources/bylaws.pdf">SPS Bylaws</a>
-			<!-- <p><a href="../resources/UofTexasatAustin-2013SPSChapterReport.pdf">2012-2013 Chapter Report</a> -->
-			<p><a href="http://www.ph.utexas.edu/~gositz/PhysicsAdvisingFAQ.pdf" target="_blank">Dr. Sitz's Registration FAQs</a></p>
-			<!-- <p><a href="#lostModal" data-toggle="modal">Lost and Found</a>
-			<div id="lostModal" class="modal fade hide" style="width:610px; height:490px;">
-                    	<div class="modal-header" style="font-size:16px;">
-                        	<b>Lost and Found</b>
-                            <span style="float:right"><button class="close" data-dismiss="modal">x</button></span>
-                        </div>
-                        <div class="modal-body" style="height:350px;">
-                        	Missing one of these?
-                        	<ul>
-								<li>Calculator</li>
-								<li>Charger</li>
-								<li>Coffee Cup</li>
-								<li>Game Pieces</li>
-								<li>Voter Card</li>
-							</ul>
-                        </div>
-                        <div class="modal-footer">
-                        	<button class="btn btn-primary" data-dismiss="modal">Close</button>
-                        </div>
-                	</div>
-			</p>
-			<p><a href="../resources/Contract_and_Receipt_for_Lockers.pdf">Locker Form</a></p> -->
-			<p><a href="http://www.spsnational.org/about/membership/index.htm">National SPS Registration</a></p>
-
-			<h3>Computer Resources</h3>
-				
-				<p><a href="https://www.ph.utexas.edu/software/">Physics Software Page</a></p>
-				
-				<p><a href="http://pmcl.ph.utexas.edu/">Physics MicroComputer Lab</a></p>
-			
-			<h3>GRE Preparation</h3>
-			<p><a href="http://grephysics.net/ans/">GREPhysics.NET</a></p>
-			<p><a href="http://en.wikipedia.org/wiki/GRE_Physics_Test/">Physics GRE Wikipedia</a></p>
-			<p><a href="http://www.physics.ohio-state.edu/undergrad/ugs_gre.php">OSU GRE Study Group</a></p>
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			
-			</div><!--/background-color-->
-        </div><!--/span-->
-
-        <div class="span3"> <!-- images -->
-          <img src="../pics/spooky.jpg" width="100px" style="float:left;margin-top:5px;margin-right:10px;" title="2spooky4me" align="left" valign="bottom" />
-      	</div>
-
-      </div><!--/row-->
-
-      <hr>
-
-      <footer>
-        <p>UT Society of Physics Students 2017</p>
-      </footer>
-
-    </div><!--/.fluid-container-->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-	<script src="../assets/js/bootstrap-affix.js"></script>
-
-	<script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
-
-    <script src="../assets/js/application.js"></script>
-	
-	<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/custom-modal-handling.js"></script>
-  </body>
+    <!--/ Footer -->
+</body>
 </html>
