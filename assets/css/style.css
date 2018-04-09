@@ -11,6 +11,9 @@ body{
     color: rgb(44, 42, 60);
     margin-bottom: 30px;    /* For sticky footer; matches footer height */
 }
+td{
+    padding: 1%;
+}
 
 .banner{
     padding: 2%; 
@@ -29,6 +32,7 @@ body{
     border-radius: 25px;
     overflow: hidden;
 }
+
 .mainText{
     margin-bottom: 4%;
 }
