@@ -1,0 +1,9 @@
+hoodie,3S,7M,1L,1XL
+gray_tx_phy,1XL
+orange_tx_phy,1S,5M,3L,1XL,1XXXXL
+ham_mint,6M,2L,1XL
+ham_black,1S
+ham_green,2M,1XXXL
+LTBL,5S,7M,3L,4XL
+pulsar,2M,2L
+elevators,1S,1M
